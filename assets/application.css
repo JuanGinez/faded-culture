@@ -607,6 +607,13 @@ video {
   margin-top: 0.5rem;
 }
 
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .block {
   display: block;
 }
@@ -681,6 +688,14 @@ video {
 
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .origin-top-left {
@@ -859,6 +874,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -910,6 +930,10 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-gray-500 {
