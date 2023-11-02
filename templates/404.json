@@ -1,22 +1,10 @@
 {
-<<<<<<< HEAD
   "sections": {
     "template": {
-      "type": "template-404",
-      "settings": {
-      }
+      "type": "template-404"
     }
   },
   "order": [
     "template"
   ]
 }
-=======
-    "sections": {
-        "template": {
-            "type": "template-404"
-        }
-    },
-    "order": ["template"]
-}
->>>>>>> 1c03edb (Updating Stuff)
