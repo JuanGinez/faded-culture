@@ -1,34 +1,39 @@
 {
 <<<<<<< HEAD
   "sections": {
-    "template": {
-      "type": "template-cart",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "template"
-  ]
+        "template": {
+            "type": "template-cart",
+            "settings": {}
+        }
+    },
+    "order": [
+        "template"
+    ]
 }
 =======
     "sections": {
-        "template": {
-            "type": "template-cart",
-            "blocks": {
-                "subtotal": {
-                    "type": "subtotal"
-                },
-                "update-button": {
-                    "type": "update_button"
-                },
-                "checkout-button": {
-                    "type": "checkout_button"
-                }
+    "template": {
+        "type": "template-cart",
+        "blocks": {
+            "subtotal": {
+                "type": "subtotal"
             },
-            "block_order": ["subtotal","update-button","checkout-button"]
-        }
-    },
-    "order": ["template"]
+            "update-button": {
+                "type": "update_button"
+            },
+            "checkout-button": {
+                "type": "checkout_button"
+            }
+        },
+        "block_order": [
+            "subtotal",
+            "update-button",
+            "checkout-button"
+        ]
+    }
+},
+"order": [
+    "template"
+]
 }
 >>>>>>> 1c03edb (Updating Stuff)
